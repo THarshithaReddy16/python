@@ -1,0 +1,7 @@
+a=input("Enter a value;")
+b=input("Enter a value:")
+temp=a
+a=b
+b=temp
+print("The value of a is",a)
+print("The value of b is:",b)
