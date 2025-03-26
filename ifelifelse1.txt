@@ -20,4 +20,4 @@ elif num==9:
 elif num==10:
     print("The Given number is Ten")
 else:
-    print("Invalid Number!! Enter the number in 1 to 10")
+    print("Invalid Number!! Enter the number in between 1 to 10")
