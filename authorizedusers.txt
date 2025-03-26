@@ -1,0 +1,6 @@
+authorized_users={"Harshitha","Deepika","Sindhu","Shiny","Jagan"}
+name=input("Enter your name:")
+if name in authorized_users:
+    print("Access Granted")
+else:
+    print("Access Denied")
