@@ -1,0 +1,11 @@
+n=input("Enter list of numbers of your choice:").split()
+i=0
+j=0
+for x in n:
+    x=int(x)
+    if x%2==0:
+     i=i+1
+    if x%2==1:
+     j=j+1
+print("The number of odd numbers present in the given list is:",i)
+print("The number of even numbers present in the given list is:",j)

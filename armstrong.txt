@@ -1,0 +1,14 @@
+n=int(input("Enter a number of your choice:"))
+dup=n
+sum=0
+while n>0:
+    rem=n%10
+    sum=sum+(rem**3)
+    n=n//10
+if sum==dup:
+    print("The given number is a armstrong number")
+else:
+    print("The given number is not a armstrong number")
+
+
+
