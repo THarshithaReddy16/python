@@ -1,0 +1,6 @@
+ls=[1,10,2,89,56,3]
+print(ls)
+ls.sort()
+print(ls)
+ls.reverse()
+print(ls)

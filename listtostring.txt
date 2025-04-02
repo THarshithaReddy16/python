@@ -1,0 +1,6 @@
+ls=['python','is','very','easy','language']
+print(type(ls))
+print(ls)
+s=''.join(ls)
+print(s)
+print(type(s))
