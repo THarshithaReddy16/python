@@ -16,4 +16,6 @@ print(ls)
 del ls[7]
 print(ls)
 print(len(ls))
+ls.clear()
+print(ls)
 
