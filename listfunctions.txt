@@ -1,0 +1,19 @@
+ls=[10,20,True,20.5,'python',0,1,80+90j]
+print(len(ls))
+print(ls.count(1))
+print(ls.index(20))
+print(ls)
+print(ls.pop())
+print(ls)
+ls.append('programming')
+print(ls)
+ls.extend(['language',55])
+print(ls)
+ls.insert(3,False)
+print(ls)
+ls.remove(55)
+print(ls)
+del ls[7]
+print(ls)
+print(len(ls))
+
