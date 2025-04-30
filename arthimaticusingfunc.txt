@@ -1,0 +1,14 @@
+def add(x,y):
+    return x+y
+def sub(x,y):
+    return x-y
+def mul(x,y):
+    return x*y
+def div(x,y):
+    return x/y
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+print("Addition is:",add(num1,num2))
+print("Subraction is:",sub(num1,num2))
+print("Multiplication is:",mul(num1,num2))
+print("Division is:",div(num1,num2))
