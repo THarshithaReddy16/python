@@ -1,0 +1,5 @@
+f=open("D:\harshitha\python\demo.txt",'r')
+
+print("The filepointer is at byte:",f.tell())
+content=f.read()
+print("After reading the file pointer is at:",f.tell())

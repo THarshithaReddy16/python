@@ -1,0 +1,5 @@
+f=open("D:\harshitha\python\demo.txt",'r')
+print("File object is opened")
+print(f)
+data=f.read()
+print(data)
